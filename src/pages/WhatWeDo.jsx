@@ -17,44 +17,49 @@ function WhatWeDo() {
   };
   return (
     <>
-      <Slider {...settings}>
-        <div className="slider-item">
-          <div className="circle"></div>
-          <div className="item">
-            <div className="item-title">Допомагаємо творити добро</div>
-            <div className="item-text">
-              Пов'язуємо волонтерів із тими, хто потребує допомоги.
+      <div className="small-block">
+        <h1 className="title">Що ми робимо?</h1>
+        <div className="slider-boxi">
+          <Slider {...settings}>
+            <div className="slider-item">
+              <div className="circle"></div>
+              <div className="item">
+                <div className="item-title">Допомагаємо творити добро</div>
+                <div className="item-text">
+                  Пов'язуємо волонтерів із тими, хто потребує допомоги.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="slider-item">
-          <div className="circle"></div>
-          <div className="item">
-            <div className="item-title">Допомагаємо творити добро</div>
-            <div className="item-text">
-              Пов'язуємо волонтерів із тими, хто потребує допомоги.
+            <div className="slider-item">
+              <div className="circle"></div>
+              <div className="item">
+                <div className="item-title">Допомагаємо творити добро</div>
+                <div className="item-text">
+                  Пов'язуємо волонтерів із тими, хто потребує допомоги.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="slider-item">
-          <div className="circle"></div>
-          <div className="item">
-            <div className="item-title">Допомагаємо творити добро</div>
-            <div className="item-text">
-              Пов'язуємо волонтерів із тими, хто потребує допомоги.
+            <div className="slider-item">
+              <div className="circle"></div>
+              <div className="item">
+                <div className="item-title">Допомагаємо творити добро</div>
+                <div className="item-text">
+                  Пов'язуємо волонтерів із тими, хто потребує допомоги.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="slider-item">
-          <div className="circle"></div>
-          <div className="item">
-            <div className="item-title">Допомагаємо творити добро</div>
-            <div className="item-text">
-              Пов'язуємо волонтерів із тими, хто потребує допомоги.
+            <div className="slider-item">
+              <div className="circle"></div>
+              <div className="item">
+                <div className="item-title">Допомагаємо творити добро</div>
+                <div className="item-text">
+                  Пов'язуємо волонтерів із тими, хто потребує допомоги.
+                </div>
+              </div>
             </div>
-          </div>
+          </Slider>
         </div>
-      </Slider>
+      </div>
     </>
   );
 }

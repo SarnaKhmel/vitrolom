@@ -1,5 +1,4 @@
 import "./styles/main.css";
-import "./styles/header.css";
 import "./styles/home.css";
 
 import { Link } from "react-router-dom";
@@ -7,8 +6,6 @@ import Slider from "react-slick";
 import WhatWeDo from "./WhatWeDo";
 import testImg1 from "./img/testImage1.jpg";
 import testImg2 from "./img/testImage2.jpg";
-
-// import { baseUrl } from "./config";
 
 import Header from "./Header";
 
@@ -55,13 +52,7 @@ function Home() {
             </Slider>
           </div>
         </div>
-        <div className="small-block">
-          <h1 className="title">Що ми робимо?</h1>
-          <div className="slider-box">
-            <WhatWeDo />
-          </div>
-        </div>
-        {/* <div className="big-block"></div> */}
+        <WhatWeDo />
       </div>
     </>
   );

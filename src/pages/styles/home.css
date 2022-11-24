@@ -72,11 +72,10 @@ img {
   object-fit: contain;
 }
 
-.slider-box {
+.small-block {
   margin: 0;
-  background-color: grey;
+  background-color: rgb(217, 44, 44);
   height: 250px;
   width: 100vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
