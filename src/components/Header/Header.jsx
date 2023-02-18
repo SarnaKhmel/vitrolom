@@ -5,8 +5,12 @@ import { Box } from "./Header.styles";
 const Header = () => {
   return (
     <Box>
-      <LogoBox />
-      <HeaderBar />
+      <div>
+        <LogoBox />
+      </div>
+      <div>
+        <HeaderBar />
+      </div>
     </Box>
   );
 };

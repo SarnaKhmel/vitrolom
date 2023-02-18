@@ -1,14 +1,19 @@
-import { Background, Circle, Circle2 } from "./MainBlock.style";
+import { Block, Background, Circle, Circle2 } from "./MainBlock.style";
 
 import ButtonsBlock from "./ButtonsBlock/ButtonsBlock";
+import Animation from "./Animation/Animation";
+
 const MainBlock = () => {
   return (
     <>
-      <Circle></Circle>
-      <Circle2></Circle2>
-      <Background>
-        <ButtonsBlock />
-      </Background>
+      <Block>
+        <Circle></Circle>
+        <Circle2></Circle2>
+        <Background>
+          <ButtonsBlock />
+          <Animation />
+        </Background>
+      </Block>
     </>
   );
 };

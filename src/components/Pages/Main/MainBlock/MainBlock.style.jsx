@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Block = styled.div`
+  height: 100vh;
+`;
+
 export const Background = styled.div`
   height: 100vh;
   background: radial-gradient(
@@ -7,6 +11,10 @@ export const Background = styled.div`
     #164e5f 0%,
     rgba(22, 78, 95, 0) 100%
   );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 `;
 
 export const Circle = styled.div`
