@@ -62,6 +62,7 @@ export const Btn2 = styled.div`
   align-items: center;
   justify-content: center;
   padding-left: 10px;
+  background-color: white;
   @media screen and (max-width: 600px) {
     padding-left: -10px;
   }
