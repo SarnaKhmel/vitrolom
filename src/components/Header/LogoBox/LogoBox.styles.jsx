@@ -7,6 +7,9 @@ export const LogoBlock = styled.div`
 `;
 
 export const LogoImage = styled.img`
+  height: 50px;
+  width: 235px;
+
   ${
     "" /* &:hover,
   &:focus {
