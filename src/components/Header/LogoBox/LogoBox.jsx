@@ -5,7 +5,7 @@ import {
   SocialLink,
   SocialImg,
 } from "./LogoBox.styles";
-import logo from "./logoImg/Logo.svg";
+import logo from "./logoImg/LOGO.svg";
 import fb from "./logoImg/facebook.svg";
 import inst from "./logoImg/instagram.svg";
 import yt from "./logoImg/youtube.svg";
