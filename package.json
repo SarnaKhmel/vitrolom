@@ -1,7 +1,7 @@
 {
   "name": "vitrolom",
   "version": "0.1.0",
-  "homepage": "http://sarnakhmel.github.io/vitrolom"
+  "homepage": "http://sarnakhmel.github.io/vitrolom",
   "private": true,
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
